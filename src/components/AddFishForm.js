@@ -32,7 +32,7 @@ class AddFishForm extends Component {
         />
         <select name="status" ref={this.statusRef}>
           <option value="avaiable">Fresh</option>
-          <option value="unavaiable">Sold out</option>
+          <option value="unavailable">Sold out</option>
         </select>
         <textarea name="desc" ref={this.descRef} placeholder="Desc" />
         <input
